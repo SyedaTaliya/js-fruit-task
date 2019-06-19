@@ -1,4 +1,4 @@
-
+// Script for fruit task
 
 var val = 0, purchase = 0, count_ap = 0, count_ban = 0, count_org = 0, total_purchase = 0;
 function values() {
