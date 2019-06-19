@@ -7,6 +7,9 @@ function values() {
 function result() {
     document.querySelector("strong").innerHTML = total_purchase;
 }
+
+// Increase Function For Apple
+
 function increaseValue() {
 
     if (val >= 10) {
@@ -23,6 +26,9 @@ function increaseValue() {
         alert("Not Enough Money to buy Apple")
     }
 }
+
+// Increase Function For Orange
+
 function increaseValueTwo() {
 
     if (val >= 15) {
@@ -39,6 +45,9 @@ function increaseValueTwo() {
         alert("Not Enough Money to buy Orange")
     }
 }
+
+// Increase Function For Banana
+
 function increaseValueThree() {
     if (val >= 7) {
         count_ban += 1;
@@ -54,6 +63,9 @@ function increaseValueThree() {
         alert("Not Enough Money to buy Banana")
     }
 }
+
+// Decrease Function For Apple
+
 function decreaseValue() {
     if (total_purchase > 0 && count_ap > 0) {
         count_ap -= 1;
@@ -66,6 +78,9 @@ function decreaseValue() {
     }
 
 }
+
+// Decrease Function For Orange
+
 function decreaseValueTwo() {
     if (total_purchase > 0 && count_org > 0) {
         count_org -= 1;
@@ -78,6 +93,9 @@ function decreaseValueTwo() {
     }
 
 }
+
+// Decrease Function For Banana
+
 function decreaseValueThree() {
     if (total_purchase > 0 && count_ban > 0) {
         count_ban -= 1;
